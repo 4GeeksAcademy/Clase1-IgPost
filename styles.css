@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    background-color: green;
+    width: 600px;
+    height: 700px;
+}
+
+.encabezado {
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.encabezado-detalles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.encabezado-sim-html {
+    font-size: 28px;
+    padding-left: 15px;
+}
+.encabezado-html{
+    display: block;
+    margin-left: 10px;
+}
+
+.encabezado-html p{
+    padding: 0;
+    margin: 0;
+}
+.encabezado-html h3{
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado-menu {
+    padding-right: 15px;
+}
+
+.imagen {
+    height: 60%;
+}
+
+img {
+    width: 600px;
+    height: 420px;
+}
+
+.simbolos {
+    background-color: white;
+    height: 8%;
+    font-size: 32px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.simbolos i {
+    margin: 0 4px;
+}
+.fa-bookmark{
+    padding-left: 415px;
+}
+
+.cuerpo{
+    background-color: white;
+    height: 22%;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.cuerpo-parraf{
+    padding-top: 5px;
+}
